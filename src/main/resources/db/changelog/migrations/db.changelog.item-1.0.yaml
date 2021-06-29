@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 10
+      author: m.bondarev
+      runInTransaction: true
+      sqlFile:
+        path: classpath:/db/changelog/sql/drop_table_items.sql
